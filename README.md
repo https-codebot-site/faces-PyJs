@@ -1,3 +1,3 @@
-This is Faces-PyJs! You can scan faces no problem here! Here are some things to consider:
-* Remember to run "is_match" to see if a face is matching
-* Run "enroll_face(scan_face())" to enroll a face
+Think about it: you have little security. Simple locks, easily broken windows, and even breakable security cameras. Now it can change. instead, you can use facial recognition*. Then, you can make it impossible for anyone to come in unautherized. Someone break the camera? Good news! They HAVE to scan thier face otherwise, they will be locked out forever! You can even keep your valuables safe and much, much more!
+
+*just run "pip install -i https://test.pypi.org/simple faces-PyJs"!
