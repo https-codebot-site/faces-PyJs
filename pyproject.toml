@@ -1,0 +1,19 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+[tool.hatch.build.targets.wheel]
+packages=["faces"]
+[project]
+name = "faces-PyJs"
+version = "0.0.9"
+description = "Lets you have super useful security."
+readme = "README.md"
+requires-python = ">=3.11.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+[project.urls]
+"Homepage" = "https://github.com/htmlcoder1562/faces-PyJs"
+"Issues" = "https://github.com/htmlcoder1562/faces-PyJs/issues"
