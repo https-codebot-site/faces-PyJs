@@ -5,7 +5,7 @@ build-backend = "hatchling.build"
 packages=["faces"]
 [project]
 name = "faces-PyJs"
-version = "0.0.9"
+version = "0.0.8"
 description = "Lets you have super useful security."
 readme = "README.md"
 requires-python = ">=3.11.9"
