@@ -1,10 +1,4 @@
-import os
-try:
-    import cv2
-except:
-    os.system("pip3 install opencv-python")
-    import cv2
-print("THIS USES CV2. RUN \"pip uninstall opencv-python\" TO UNINSTALL.")
+import cv2
 # Initialize a list to store enrolled faces
 enrolled_faces = []
 
