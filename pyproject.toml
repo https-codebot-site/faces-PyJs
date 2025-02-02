@@ -7,7 +7,7 @@ packages = ["faces"]
 
 [project]
 name = "faces-PyJs"
-version = "0.1.0"
+version = "0.1.1"
 description = "Lets you have super useful security."
 readme = "README.md"
 requires-python = ">=3.11.9"

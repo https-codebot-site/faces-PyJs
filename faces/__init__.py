@@ -37,7 +37,9 @@ class dont_run:
 
 face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + "haarcascade_frontalface_default.xml")
 
-def enroll_face(frame=dont_run.scan_face()):
+def enroll_face(frame="default"):
+    if frame == "default":
+        frame = dont_run.scan_face()
     global enrolled_faces
 
     # Convert the frame to grayscale for face detection
@@ -58,4 +60,4 @@ def enroll_face(frame=dont_run.scan_face()):
 def match_face():
     frame = dont_run.scan_face()
     return dont_run.is_match(frame)
-__version__="0.1.0"#---------------------------------------------CHANGE THIS---------------------------------------------#
+__version__="0.1.1"#---------------------------------------------CHANGE THIS---------------------------------------------#
